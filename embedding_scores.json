@@ -1,0 +1,288 @@
+{
+  "baseline": [
+    {
+      "id": 9,
+      "type": "critical_feedback",
+      "cosine_similarity": 0.6506
+    },
+    {
+      "id": 10,
+      "type": "critical_feedback",
+      "cosine_similarity": 0.5471
+    },
+    {
+      "id": 19,
+      "type": "declining_request",
+      "cosine_similarity": 0.5784
+    },
+    {
+      "id": 20,
+      "type": "declining_request",
+      "cosine_similarity": 0.5613
+    },
+    {
+      "id": 29,
+      "type": "delivering_bad_news",
+      "cosine_similarity": 0.7801
+    },
+    {
+      "id": 30,
+      "type": "delivering_bad_news",
+      "cosine_similarity": 0.3003
+    },
+    {
+      "id": 39,
+      "type": "correcting_error",
+      "cosine_similarity": 0.8704
+    },
+    {
+      "id": 40,
+      "type": "correcting_error",
+      "cosine_similarity": 0.6071
+    },
+    {
+      "id": 49,
+      "type": "advising_under_stress",
+      "cosine_similarity": 0.4277
+    },
+    {
+      "id": 50,
+      "type": "advising_under_stress",
+      "cosine_similarity": 0.597
+    }
+  ],
+  "prompted": [
+    {
+      "id": 9,
+      "type": "critical_feedback",
+      "cosine_similarity": 0.7057,
+      "phrasing": "A"
+    },
+    {
+      "id": 10,
+      "type": "critical_feedback",
+      "cosine_similarity": 0.5924,
+      "phrasing": "A"
+    },
+    {
+      "id": 19,
+      "type": "declining_request",
+      "cosine_similarity": 0.6514,
+      "phrasing": "A"
+    },
+    {
+      "id": 20,
+      "type": "declining_request",
+      "cosine_similarity": 0.5825,
+      "phrasing": "A"
+    },
+    {
+      "id": 29,
+      "type": "delivering_bad_news",
+      "cosine_similarity": 0.7634,
+      "phrasing": "A"
+    },
+    {
+      "id": 30,
+      "type": "delivering_bad_news",
+      "cosine_similarity": 0.3552,
+      "phrasing": "A"
+    },
+    {
+      "id": 39,
+      "type": "correcting_error",
+      "cosine_similarity": 0.8132,
+      "phrasing": "A"
+    },
+    {
+      "id": 40,
+      "type": "correcting_error",
+      "cosine_similarity": 0.7199,
+      "phrasing": "A"
+    },
+    {
+      "id": 49,
+      "type": "advising_under_stress",
+      "cosine_similarity": 0.2266,
+      "phrasing": "A"
+    },
+    {
+      "id": 50,
+      "type": "advising_under_stress",
+      "cosine_similarity": 0.6089,
+      "phrasing": "A"
+    },
+    {
+      "id": 9,
+      "type": "critical_feedback",
+      "cosine_similarity": 0.68,
+      "phrasing": "B"
+    },
+    {
+      "id": 10,
+      "type": "critical_feedback",
+      "cosine_similarity": 0.5989,
+      "phrasing": "B"
+    },
+    {
+      "id": 19,
+      "type": "declining_request",
+      "cosine_similarity": 0.6128,
+      "phrasing": "B"
+    },
+    {
+      "id": 20,
+      "type": "declining_request",
+      "cosine_similarity": 0.6008,
+      "phrasing": "B"
+    },
+    {
+      "id": 29,
+      "type": "delivering_bad_news",
+      "cosine_similarity": 0.7801,
+      "phrasing": "B"
+    },
+    {
+      "id": 30,
+      "type": "delivering_bad_news",
+      "cosine_similarity": 0.2409,
+      "phrasing": "B"
+    },
+    {
+      "id": 39,
+      "type": "correcting_error",
+      "cosine_similarity": 0.8718,
+      "phrasing": "B"
+    },
+    {
+      "id": 40,
+      "type": "correcting_error",
+      "cosine_similarity": 0.611,
+      "phrasing": "B"
+    },
+    {
+      "id": 49,
+      "type": "advising_under_stress",
+      "cosine_similarity": 0.3727,
+      "phrasing": "B"
+    },
+    {
+      "id": 50,
+      "type": "advising_under_stress",
+      "cosine_similarity": 0.5588,
+      "phrasing": "B"
+    },
+    {
+      "id": 9,
+      "type": "critical_feedback",
+      "cosine_similarity": 0.6978,
+      "phrasing": "C"
+    },
+    {
+      "id": 10,
+      "type": "critical_feedback",
+      "cosine_similarity": 0.5136,
+      "phrasing": "C"
+    },
+    {
+      "id": 19,
+      "type": "declining_request",
+      "cosine_similarity": 0.5355,
+      "phrasing": "C"
+    },
+    {
+      "id": 20,
+      "type": "declining_request",
+      "cosine_similarity": 0.5175,
+      "phrasing": "C"
+    },
+    {
+      "id": 29,
+      "type": "delivering_bad_news",
+      "cosine_similarity": 0.7412,
+      "phrasing": "C"
+    },
+    {
+      "id": 30,
+      "type": "delivering_bad_news",
+      "cosine_similarity": 0.2492,
+      "phrasing": "C"
+    },
+    {
+      "id": 39,
+      "type": "correcting_error",
+      "cosine_similarity": 0.5715,
+      "phrasing": "C"
+    },
+    {
+      "id": 40,
+      "type": "correcting_error",
+      "cosine_similarity": 0.6145,
+      "phrasing": "C"
+    },
+    {
+      "id": 49,
+      "type": "advising_under_stress",
+      "cosine_similarity": 0.4367,
+      "phrasing": "C"
+    },
+    {
+      "id": 50,
+      "type": "advising_under_stress",
+      "cosine_similarity": 0.5361,
+      "phrasing": "C"
+    }
+  ],
+  "dpo": [
+    {
+      "id": 9,
+      "type": "critical_feedback",
+      "cosine_similarity": 0.7022
+    },
+    {
+      "id": 10,
+      "type": "critical_feedback",
+      "cosine_similarity": 0.4776
+    },
+    {
+      "id": 19,
+      "type": "declining_request",
+      "cosine_similarity": 0.1903
+    },
+    {
+      "id": 20,
+      "type": "declining_request",
+      "cosine_similarity": 0.3515
+    },
+    {
+      "id": 29,
+      "type": "delivering_bad_news",
+      "cosine_similarity": 0.7616
+    },
+    {
+      "id": 30,
+      "type": "delivering_bad_news",
+      "cosine_similarity": 0.3995
+    },
+    {
+      "id": 39,
+      "type": "correcting_error",
+      "cosine_similarity": 0.726
+    },
+    {
+      "id": 40,
+      "type": "correcting_error",
+      "cosine_similarity": 0.6127
+    },
+    {
+      "id": 49,
+      "type": "advising_under_stress",
+      "cosine_similarity": 0.4384
+    },
+    {
+      "id": 50,
+      "type": "advising_under_stress",
+      "cosine_similarity": 0.739
+    }
+  ]
+}

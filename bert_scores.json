@@ -1,0 +1,658 @@
+{
+  "baseline": [
+    {
+      "id": 9,
+      "type": "critical_feedback",
+      "label": "polite",
+      "score": 0.7859,
+      "all": {
+        "polite": 0.7859,
+        "somewhat polite": 0.1535,
+        "neutral": 0.0576,
+        "impolite": 0.003
+      },
+      "phrasing": null
+    },
+    {
+      "id": 10,
+      "type": "critical_feedback",
+      "label": "neutral",
+      "score": 0.8235,
+      "all": {
+        "neutral": 0.8235,
+        "impolite": 0.1668,
+        "somewhat polite": 0.0061,
+        "polite": 0.0036
+      },
+      "phrasing": null
+    },
+    {
+      "id": 19,
+      "type": "declining_request",
+      "label": "neutral",
+      "score": 0.59,
+      "all": {
+        "neutral": 0.59,
+        "somewhat polite": 0.3826,
+        "impolite": 0.019,
+        "polite": 0.0085
+      },
+      "phrasing": null
+    },
+    {
+      "id": 20,
+      "type": "declining_request",
+      "label": "neutral",
+      "score": 0.861,
+      "all": {
+        "neutral": 0.861,
+        "impolite": 0.1254,
+        "somewhat polite": 0.0086,
+        "polite": 0.0051
+      },
+      "phrasing": null
+    },
+    {
+      "id": 29,
+      "type": "delivering_bad_news",
+      "label": "polite",
+      "score": 0.8821,
+      "all": {
+        "polite": 0.8821,
+        "neutral": 0.0859,
+        "somewhat polite": 0.0288,
+        "impolite": 0.0032
+      },
+      "phrasing": null
+    },
+    {
+      "id": 30,
+      "type": "delivering_bad_news",
+      "label": "neutral",
+      "score": 0.9459,
+      "all": {
+        "neutral": 0.9459,
+        "somewhat polite": 0.0233,
+        "impolite": 0.0184,
+        "polite": 0.0124
+      },
+      "phrasing": null
+    },
+    {
+      "id": 39,
+      "type": "correcting_error",
+      "label": "somewhat polite",
+      "score": 0.5851,
+      "all": {
+        "somewhat polite": 0.5851,
+        "impolite": 0.3439,
+        "neutral": 0.0498,
+        "polite": 0.0212
+      },
+      "phrasing": null
+    },
+    {
+      "id": 40,
+      "type": "correcting_error",
+      "label": "neutral",
+      "score": 0.6339,
+      "all": {
+        "neutral": 0.6339,
+        "somewhat polite": 0.2268,
+        "impolite": 0.1293,
+        "polite": 0.01
+      },
+      "phrasing": null
+    },
+    {
+      "id": 49,
+      "type": "advising_under_stress",
+      "label": "impolite",
+      "score": 0.9232,
+      "all": {
+        "impolite": 0.9232,
+        "polite": 0.0573,
+        "somewhat polite": 0.0158,
+        "neutral": 0.0038
+      },
+      "phrasing": null
+    },
+    {
+      "id": 50,
+      "type": "advising_under_stress",
+      "label": "polite",
+      "score": 0.9131,
+      "all": {
+        "polite": 0.9131,
+        "neutral": 0.0551,
+        "somewhat polite": 0.0315,
+        "impolite": 0.0003
+      },
+      "phrasing": null
+    }
+  ],
+  "prompted": [
+    {
+      "id": 9,
+      "type": "critical_feedback",
+      "label": "polite",
+      "score": 0.9937,
+      "all": {
+        "polite": 0.9937,
+        "impolite": 0.0054,
+        "somewhat polite": 0.0008,
+        "neutral": 0.0001
+      },
+      "phrasing": "A"
+    },
+    {
+      "id": 10,
+      "type": "critical_feedback",
+      "label": "impolite",
+      "score": 0.9846,
+      "all": {
+        "impolite": 0.9846,
+        "neutral": 0.0144,
+        "somewhat polite": 0.0006,
+        "polite": 0.0005
+      },
+      "phrasing": "A"
+    },
+    {
+      "id": 19,
+      "type": "declining_request",
+      "label": "somewhat polite",
+      "score": 0.8344,
+      "all": {
+        "somewhat polite": 0.8344,
+        "polite": 0.1298,
+        "neutral": 0.0353,
+        "impolite": 0.0004
+      },
+      "phrasing": "A"
+    },
+    {
+      "id": 20,
+      "type": "declining_request",
+      "label": "neutral",
+      "score": 0.9722,
+      "all": {
+        "neutral": 0.9722,
+        "impolite": 0.0244,
+        "somewhat polite": 0.0021,
+        "polite": 0.0013
+      },
+      "phrasing": "A"
+    },
+    {
+      "id": 29,
+      "type": "delivering_bad_news",
+      "label": "neutral",
+      "score": 0.7478,
+      "all": {
+        "neutral": 0.7478,
+        "polite": 0.2244,
+        "somewhat polite": 0.0234,
+        "impolite": 0.0045
+      },
+      "phrasing": "A"
+    },
+    {
+      "id": 30,
+      "type": "delivering_bad_news",
+      "label": "neutral",
+      "score": 0.8647,
+      "all": {
+        "neutral": 0.8647,
+        "somewhat polite": 0.1136,
+        "impolite": 0.012,
+        "polite": 0.0097
+      },
+      "phrasing": "A"
+    },
+    {
+      "id": 39,
+      "type": "correcting_error",
+      "label": "neutral",
+      "score": 0.4483,
+      "all": {
+        "neutral": 0.4483,
+        "somewhat polite": 0.396,
+        "impolite": 0.1445,
+        "polite": 0.0112
+      },
+      "phrasing": "A"
+    },
+    {
+      "id": 40,
+      "type": "correcting_error",
+      "label": "neutral",
+      "score": 0.6845,
+      "all": {
+        "neutral": 0.6845,
+        "somewhat polite": 0.2568,
+        "impolite": 0.0534,
+        "polite": 0.0052
+      },
+      "phrasing": "A"
+    },
+    {
+      "id": 49,
+      "type": "advising_under_stress",
+      "label": "impolite",
+      "score": 0.4871,
+      "all": {
+        "impolite": 0.4871,
+        "somewhat polite": 0.2791,
+        "polite": 0.2282,
+        "neutral": 0.0056
+      },
+      "phrasing": "A"
+    },
+    {
+      "id": 50,
+      "type": "advising_under_stress",
+      "label": "polite",
+      "score": 0.9982,
+      "all": {
+        "polite": 0.9982,
+        "somewhat polite": 0.0016,
+        "neutral": 0.0001,
+        "impolite": 0.0001
+      },
+      "phrasing": "A"
+    },
+    {
+      "id": 9,
+      "type": "critical_feedback",
+      "label": "polite",
+      "score": 0.9982,
+      "all": {
+        "polite": 0.9982,
+        "somewhat polite": 0.0012,
+        "impolite": 0.0005,
+        "neutral": 0.0001
+      },
+      "phrasing": "B"
+    },
+    {
+      "id": 10,
+      "type": "critical_feedback",
+      "label": "polite",
+      "score": 0.7349,
+      "all": {
+        "polite": 0.7349,
+        "impolite": 0.2446,
+        "somewhat polite": 0.0161,
+        "neutral": 0.0044
+      },
+      "phrasing": "B"
+    },
+    {
+      "id": 19,
+      "type": "declining_request",
+      "label": "somewhat polite",
+      "score": 0.7429,
+      "all": {
+        "somewhat polite": 0.7429,
+        "polite": 0.2212,
+        "neutral": 0.0355,
+        "impolite": 0.0004
+      },
+      "phrasing": "B"
+    },
+    {
+      "id": 20,
+      "type": "declining_request",
+      "label": "neutral",
+      "score": 0.8811,
+      "all": {
+        "neutral": 0.8811,
+        "impolite": 0.0861,
+        "somewhat polite": 0.0198,
+        "polite": 0.013
+      },
+      "phrasing": "B"
+    },
+    {
+      "id": 29,
+      "type": "delivering_bad_news",
+      "label": "neutral",
+      "score": 0.3912,
+      "all": {
+        "neutral": 0.3912,
+        "polite": 0.3097,
+        "somewhat polite": 0.2901,
+        "impolite": 0.009
+      },
+      "phrasing": "B"
+    },
+    {
+      "id": 30,
+      "type": "delivering_bad_news",
+      "label": "polite",
+      "score": 0.5552,
+      "all": {
+        "polite": 0.5552,
+        "somewhat polite": 0.433,
+        "neutral": 0.0114,
+        "impolite": 0.0005
+      },
+      "phrasing": "B"
+    },
+    {
+      "id": 39,
+      "type": "correcting_error",
+      "label": "somewhat polite",
+      "score": 0.9644,
+      "all": {
+        "somewhat polite": 0.9644,
+        "polite": 0.0307,
+        "neutral": 0.003,
+        "impolite": 0.0019
+      },
+      "phrasing": "B"
+    },
+    {
+      "id": 40,
+      "type": "correcting_error",
+      "label": "somewhat polite",
+      "score": 0.9786,
+      "all": {
+        "somewhat polite": 0.9786,
+        "neutral": 0.0116,
+        "polite": 0.0062,
+        "impolite": 0.0036
+      },
+      "phrasing": "B"
+    },
+    {
+      "id": 49,
+      "type": "advising_under_stress",
+      "label": "polite",
+      "score": 0.4975,
+      "all": {
+        "polite": 0.4975,
+        "somewhat polite": 0.4875,
+        "neutral": 0.0084,
+        "impolite": 0.0066
+      },
+      "phrasing": "B"
+    },
+    {
+      "id": 50,
+      "type": "advising_under_stress",
+      "label": "polite",
+      "score": 0.9724,
+      "all": {
+        "polite": 0.9724,
+        "somewhat polite": 0.0269,
+        "neutral": 0.0006,
+        "impolite": 0.0001
+      },
+      "phrasing": "B"
+    },
+    {
+      "id": 9,
+      "type": "critical_feedback",
+      "label": "polite",
+      "score": 0.9958,
+      "all": {
+        "polite": 0.9958,
+        "somewhat polite": 0.0028,
+        "neutral": 0.0009,
+        "impolite": 0.0005
+      },
+      "phrasing": "C"
+    },
+    {
+      "id": 10,
+      "type": "critical_feedback",
+      "label": "polite",
+      "score": 0.8348,
+      "all": {
+        "polite": 0.8348,
+        "somewhat polite": 0.1617,
+        "neutral": 0.002,
+        "impolite": 0.0015
+      },
+      "phrasing": "C"
+    },
+    {
+      "id": 19,
+      "type": "declining_request",
+      "label": "somewhat polite",
+      "score": 0.494,
+      "all": {
+        "somewhat polite": 0.494,
+        "polite": 0.4306,
+        "neutral": 0.0751,
+        "impolite": 0.0004
+      },
+      "phrasing": "C"
+    },
+    {
+      "id": 20,
+      "type": "declining_request",
+      "label": "neutral",
+      "score": 0.9838,
+      "all": {
+        "neutral": 0.9838,
+        "impolite": 0.0138,
+        "polite": 0.0012,
+        "somewhat polite": 0.0011
+      },
+      "phrasing": "C"
+    },
+    {
+      "id": 29,
+      "type": "delivering_bad_news",
+      "label": "polite",
+      "score": 0.9239,
+      "all": {
+        "polite": 0.9239,
+        "impolite": 0.045,
+        "neutral": 0.0195,
+        "somewhat polite": 0.0115
+      },
+      "phrasing": "C"
+    },
+    {
+      "id": 30,
+      "type": "delivering_bad_news",
+      "label": "polite",
+      "score": 0.7628,
+      "all": {
+        "polite": 0.7628,
+        "somewhat polite": 0.2331,
+        "neutral": 0.0021,
+        "impolite": 0.002
+      },
+      "phrasing": "C"
+    },
+    {
+      "id": 39,
+      "type": "correcting_error",
+      "label": "somewhat polite",
+      "score": 0.623,
+      "all": {
+        "somewhat polite": 0.623,
+        "polite": 0.3719,
+        "neutral": 0.0047,
+        "impolite": 0.0004
+      },
+      "phrasing": "C"
+    },
+    {
+      "id": 40,
+      "type": "correcting_error",
+      "label": "impolite",
+      "score": 0.6102,
+      "all": {
+        "impolite": 0.6102,
+        "neutral": 0.3278,
+        "somewhat polite": 0.0509,
+        "polite": 0.0111
+      },
+      "phrasing": "C"
+    },
+    {
+      "id": 49,
+      "type": "advising_under_stress",
+      "label": "polite",
+      "score": 0.9241,
+      "all": {
+        "polite": 0.9241,
+        "somewhat polite": 0.0723,
+        "neutral": 0.0025,
+        "impolite": 0.0011
+      },
+      "phrasing": "C"
+    },
+    {
+      "id": 50,
+      "type": "advising_under_stress",
+      "label": "polite",
+      "score": 0.9533,
+      "all": {
+        "polite": 0.9533,
+        "somewhat polite": 0.0399,
+        "neutral": 0.0065,
+        "impolite": 0.0003
+      },
+      "phrasing": "C"
+    }
+  ],
+  "dpo": [
+    {
+      "id": 9,
+      "type": "critical_feedback",
+      "label": "neutral",
+      "score": 0.5515,
+      "all": {
+        "neutral": 0.5515,
+        "impolite": 0.2481,
+        "somewhat polite": 0.1691,
+        "polite": 0.0313
+      },
+      "phrasing": null
+    },
+    {
+      "id": 10,
+      "type": "critical_feedback",
+      "label": "impolite",
+      "score": 0.6566,
+      "all": {
+        "impolite": 0.6566,
+        "neutral": 0.3227,
+        "polite": 0.0104,
+        "somewhat polite": 0.0104
+      },
+      "phrasing": null
+    },
+    {
+      "id": 19,
+      "type": "declining_request",
+      "label": "polite",
+      "score": 0.8391,
+      "all": {
+        "polite": 0.8391,
+        "neutral": 0.0794,
+        "impolite": 0.055,
+        "somewhat polite": 0.0265
+      },
+      "phrasing": null
+    },
+    {
+      "id": 20,
+      "type": "declining_request",
+      "label": "impolite",
+      "score": 0.9798,
+      "all": {
+        "impolite": 0.9798,
+        "neutral": 0.0124,
+        "polite": 0.005,
+        "somewhat polite": 0.0027
+      },
+      "phrasing": null
+    },
+    {
+      "id": 29,
+      "type": "delivering_bad_news",
+      "label": "polite",
+      "score": 0.5694,
+      "all": {
+        "polite": 0.5694,
+        "neutral": 0.2897,
+        "somewhat polite": 0.1327,
+        "impolite": 0.0082
+      },
+      "phrasing": null
+    },
+    {
+      "id": 30,
+      "type": "delivering_bad_news",
+      "label": "neutral",
+      "score": 0.8894,
+      "all": {
+        "neutral": 0.8894,
+        "polite": 0.0599,
+        "somewhat polite": 0.0473,
+        "impolite": 0.0034
+      },
+      "phrasing": null
+    },
+    {
+      "id": 39,
+      "type": "correcting_error",
+      "label": "neutral",
+      "score": 0.7913,
+      "all": {
+        "neutral": 0.7913,
+        "impolite": 0.1665,
+        "somewhat polite": 0.0296,
+        "polite": 0.0126
+      },
+      "phrasing": null
+    },
+    {
+      "id": 40,
+      "type": "correcting_error",
+      "label": "polite",
+      "score": 0.9198,
+      "all": {
+        "polite": 0.9198,
+        "somewhat polite": 0.0722,
+        "neutral": 0.0079,
+        "impolite": 0.0001
+      },
+      "phrasing": null
+    },
+    {
+      "id": 49,
+      "type": "advising_under_stress",
+      "label": "polite",
+      "score": 0.9898,
+      "all": {
+        "polite": 0.9898,
+        "somewhat polite": 0.0052,
+        "neutral": 0.0025,
+        "impolite": 0.0025
+      },
+      "phrasing": null
+    },
+    {
+      "id": 50,
+      "type": "advising_under_stress",
+      "label": "polite",
+      "score": 0.8893,
+      "all": {
+        "polite": 0.8893,
+        "neutral": 0.076,
+        "somewhat polite": 0.0317,
+        "impolite": 0.0029
+      },
+      "phrasing": null
+    }
+  ]
+}
