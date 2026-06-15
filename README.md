@@ -1,9 +1,11 @@
-# Politeness Optimisation in LLM Responses
+# Teaching Politeness vs.\ Asking for It: A Comparison of
+DPO Fine-Tuning and System Prompting for Pragmatic Language
+Alignment
 
 A comparative study of three approaches to making a language model respond more politely: a no-intervention baseline, system-prompt engineering, and Direct Preference Optimisation (DPO) fine-tuning.
 
 **Model:** Llama 3.2 3B (Instruct)  
-**Dataset:** 50 hand-crafted politeness scenarios across 5 emotionally sensitive scenario types  
+**Dataset:** 50 politeness scenarios across 5 emotionally sensitive scenario types  
 **Evaluation:** Automated politeness classifier, semantic similarity to human-written references, and LLM-as-judge rubric scoring
 
 ---
@@ -26,7 +28,7 @@ The dataset covers five categories of high-stakes communication where tone matte
 | `correcting_error` | Correcting factual myths the user believes |
 | `advising_under_stress` | Responding to someone in emotional distress |
 
-Each scenario has a `chosen` (polite, empathetic) and `rejected` (blunt, clinical) reference response used for DPO training and embedding evaluation.
+Each scenario has a `chosen` (polite, empathetic) and `rejected` (blunt) reference response used for DPO training and embedding evaluation.
 
 ---
 
@@ -128,6 +130,8 @@ python evaluate_bert.py        # → bert_scores.json
 python evaluate_embeddings.py  # → embedding_scores.json
 ```
 
+Results are consolidated in `scores_comparison.csv`.
+
 ---
 
 ## File Overview
@@ -146,4 +150,5 @@ python evaluate_embeddings.py  # → embedding_scores.json
 | `bert_scores.json` | Classifier output for all conditions |
 | `embedding_scores.json` | Cosine similarity scores for all conditions |
 | `judge_scores.json` | LLM judge rubric scores (ACK, HEDGE, TONE) with reasoning |
+| `scores_comparison.csv` | Consolidated CSV of all BERT metrics |
 | `dpo_model/` | Saved LoRA adapter and tokenizer |
