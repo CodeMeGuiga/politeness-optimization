@@ -1,6 +1,4 @@
-# Teaching Politeness vs.\ Asking for It: A Comparison of
-DPO Fine-Tuning and System Prompting for Pragmatic Language
-Alignment
+# Teaching Politeness vs. Asking for It: A Comparison of DPO Fine-Tuning and System Prompting for Pragmatic Language Alignment
 
 A comparative study of three approaches to making a language model respond more politely: a no-intervention baseline, system-prompt engineering, and Direct Preference Optimisation (DPO) fine-tuning.
 
